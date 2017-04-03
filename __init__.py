@@ -22,5 +22,6 @@ start_handler = CommandHandler('start', start)
 # add handlers to dispatcher
 updater.dispatcher.add_handler(start_handler)
 
-# listen
-updater.start_polling()
+if __name__ == "__main__":
+    # listen
+    updater.start_polling()
