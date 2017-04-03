@@ -4,7 +4,7 @@ setup(
     version="0.1",
     packages=find_packages(),
 
-    install_requires=["requests"],
+    install_requires=["python-telegram-bot"],
 
     # package_data={
     #     # If any package contains *.txt or *.rst files, include them:
